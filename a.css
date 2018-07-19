@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body{
+    background-image: url(http://kitcbe.com/wp-content/uploads/2017/01/banner1.jpg);
+    height: 50%;
+
+    background-size: cover;
+    background-position: center;
+}
+header{
+  background:#0b233e;
+  color: white;
+  padding: 10px 0px 6px 40px;
+  height: 140px;
+}
+header h1{
+  display: inline;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a6c8ef;
+  float:right;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 40px 0px 0px 0px;
+
+}
+header h2{
+  display: inline;
+  float: left;
+  padding: 10px 0px 0px 0px;
+  margin-top: 20px;
+  margin-left:
+}
+header h3{
+  display:inline;
+  float: right;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+nav ul{
+  display: inline;
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  margin-top: 0px;
+  padding: 25px 0px 10px 0px;
+  float: left;
+}
+
+
+
+.form{
+    position: static;
+    z-index: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    margin: 0 auto 0px;
+    padding: 100px;
+    text-align:center;
+}
+
+.form p{
+    text-align: left;
+    font-family: 'Merienda', cursive;;
+    font-size: 25px;
+    margin-left: 20%;
+    color:#a6c8ef;
+    font-weight: 1000;
+
+
+}
+
+.regestration-form input{
+    margin: 0;
+    border: 0;
+    height: 40px;
+    font-size: 18px;
+    color: black;
+    width: 40%;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+
+  }
+
+.form button{
+    width: 20%;
+    height: 40px;
+    background-color: grey;
+    border: 0;
+    text-align: center;
+    font-family:'Merienda', cursive;
+    cursor: pointer;
+}
+
+.regestration-form input[type="text"]{
+    margin-left: 2%;
+
+}
+
+
+
+
+.form button:hover,.form button:active{
+    background:#43A047;
+}
